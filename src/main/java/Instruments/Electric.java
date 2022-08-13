@@ -1,6 +1,6 @@
 package Instruments;
 
-public class Electric extends Instrument implements IPlay {
+public class Electric extends Instrument {
 
     public Electric(Double costPrice, Double retailValue, String description, GuitarType type, int numStrings, String stringType) {
         super(costPrice, retailValue, description, type, numStrings, stringType);
@@ -9,6 +9,11 @@ public class Electric extends Instrument implements IPlay {
     public GuitarType getType() {
         return GuitarType.Solid;
     }
+    public String play(){
+        return "Some awesome riff";
+    }
+
+
 
 
 }

@@ -5,7 +5,7 @@ import jdk.jfr.Description;
 
 import java.util.ArrayList;
 
-public class Instrument extends Stock {
+public class Instrument extends Stock implements IPlay {
 
     GuitarType type; //pulled from enum
     private String description; //electric/acoustic -String

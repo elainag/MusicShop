@@ -51,6 +51,10 @@ public class ElectricTest {
     public void canGetTypeofStrings(){
         assertEquals("Steel", electric.getStringType());
     }
+    @Test
+    public void canPlay(){
+       assertEquals("Some awesome riff", electric.play());
+    }
 }
 
 

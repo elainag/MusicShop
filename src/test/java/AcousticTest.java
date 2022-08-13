@@ -51,4 +51,8 @@ public class AcousticTest {
     public void canGetTypeofStrings(){
         assertEquals("Steel", acoustic1.getStringType());
     }
+    @Test
+    public void canPlay(){
+        assertEquals("Some mellow chords", acoustic.play());
+    }
 }

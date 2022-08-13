@@ -9,6 +9,9 @@ public class Acoustic extends Instrument {
     public GuitarType getType() {
         return GuitarType.Classical;
     }
+    public String play(){
+        return "Some mellow chords";
+    }
 
 
 }
