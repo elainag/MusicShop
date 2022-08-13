@@ -1,12 +1,9 @@
 package Shop;
 
-import Accessories.Accessories;
-import Instruments.Instrument;
-import Parts.Parts;
+import Behaviours.IBuy;
+import Behaviours.ISell;
 
-import java.util.ArrayList;
-
-public abstract class Stock {
+public abstract class Stock implements IBuy, ISell {
 
     private Double costPrice;
     private Double retailValue;

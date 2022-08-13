@@ -1,4 +1,4 @@
-package Shop;
+package Behaviours;
 
 public interface ISell {
 }

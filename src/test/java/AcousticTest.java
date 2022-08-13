@@ -55,4 +55,7 @@ public class AcousticTest {
     public void canPlay(){
         assertEquals("Some mellow chords", acoustic.play());
     }
+    public void canBuy(){
+        assertEquals("Congrats you've just bought more stock!", acoustic.buy());
+    }
 }

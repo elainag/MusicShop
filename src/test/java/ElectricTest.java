@@ -55,6 +55,7 @@ public class ElectricTest {
     public void canPlay(){
        assertEquals("Some awesome riff", electric.play());
     }
+
 }
 
 
