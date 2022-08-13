@@ -55,6 +55,10 @@ public class ElectricTest {
     public void canPlay(){
        assertEquals("Some awesome riff", electric.play());
     }
+    @Test
+    public void calculateMarkup(){
+        assertEquals(200.00, electric.calculateMarkup(), 0.00);
+    }
 
 }
 

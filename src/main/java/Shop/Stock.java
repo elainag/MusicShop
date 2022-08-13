@@ -30,5 +30,8 @@ public abstract class Stock implements IBuy, ISell {
         this.retailValue = retailValue;
         return retailValue;
     }
+    public double calculateMarkup(){
+        return getRetailValue() - getCostPrice();
+    }
 }
 

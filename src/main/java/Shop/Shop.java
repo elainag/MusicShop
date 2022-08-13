@@ -3,6 +3,7 @@ package Shop;
 
 import Behaviours.IBuy;
 import Behaviours.ISell;
+import Instruments.Acoustic;
 
 import java.util.ArrayList;
 
@@ -23,7 +24,6 @@ public class Shop {
         this.sold.add(acoustic);
         return sold.size();
     }
-
 
 }
 

@@ -16,5 +16,11 @@ public class Acoustic extends Instrument {
         return "Congrats you've just bought more stock!";
     }
 
+    public String sell(){
+        return "Congrats you've just made a sale!";
+    }
+
+
+
 
 }

@@ -58,4 +58,8 @@ public class AcousticTest {
     public void canBuy(){
         assertEquals("Congrats you've just bought more stock!", acoustic.buy());
     }
+    @Test
+    public void calculateMarkup(){
+        assertEquals(50.00, acoustic.calculateMarkup(), 0.00);
+    }
 }

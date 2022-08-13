@@ -14,6 +14,8 @@ public class Electric extends Instrument {
     }
     public String buy(){
         return "Congrats you've just bought more stock!";
+    }public String sell(){
+        return "Congrats you've just made a sale!";
     }
 
 
